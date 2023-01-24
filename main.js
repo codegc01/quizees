@@ -1,0 +1,10 @@
+let a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, eius!";
+let b = 2;
+let c = "Q" + b +" "+ a;
+document.getElementById("count").innerHTML = 30;
+document.getElementById("left").innerHTML = "1/10";
+document.getElementById("quiz").innerHTML = c;
+document.getElementById("A").innerHTML = "A. "+a;
+document.getElementById("B").innerHTML = "B. "+a;
+document.getElementById("C").innerHTML = "C. "+a;
+document.getElementById("D").innerHTML = "D. "+a;

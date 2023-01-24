@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: block;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    background-color: #9d1afb;
+}
+
+#navbar {
+    width: auto;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding: 1.3rem 2.1rem 3.3rem 2.1rem;
+    background-color: #c957fe;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+#navbar #lets {
+    float: left;
+    display: flex;
+    margin: 1rem 0px 0rem 2px;
+}
+#navbar #lets a i{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+#navbar #logo {
+    float: right;
+    align-items: center;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+#navbar #logo p {
+    font-size: 1rem;
+    margin-left: 3rem;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+#box ul li {
+    margin: 3rem 2rem;
+    width: auto;
+    background-color: #fff;
+    height: auto;
+    padding: 1rem 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#box ul li a {
+    text-align: center;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+/* :root{    
+    color: #0A69D6;
+    color: #614D54;
+} */
